@@ -8,8 +8,23 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+
+.projectHeader {
+	margin-bottom: 20px;
+}
+
+.projectRow {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom:solid 3px #ccc;
+}
+
 .projectRow img {
 	margin:0px auto;
+}
+
+.projectRow .jsGallery {
+	cursor: pointer;
 }
 
 footer {
